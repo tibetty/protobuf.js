@@ -113,7 +113,7 @@ base64.length = function length(string) {
     var n = 0;
     while (--p % 4 > 1 && string.charAt(p) === "=")
         ++n;
-    return Math.ceil(string.length * 3) / 4 - n;
+    return Math.ceil(string.length * 3) / 4) - n;
 };
 
 // Base64 encoding table
